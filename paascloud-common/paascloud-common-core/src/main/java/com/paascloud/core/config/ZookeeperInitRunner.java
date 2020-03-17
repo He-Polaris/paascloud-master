@@ -45,10 +45,10 @@ public class ZookeeperInitRunner implements CommandLineRunner {
 	 */
 	@Override
 	public void run(String... args) throws Exception {
-		String hostAddress = InetAddress.getLocalHost().getHostAddress();
-		log.info("###ZookeeperInitRunner，init. HostAddress={}, applicationName={}", hostAddress, applicationName);
-		RegistryCenterFactory.startup(paascloudProperties, hostAddress, applicationName);
-		log.info("###ZookeeperInitRunner，finish<<<<<<<<<<<<<");
+//		String hostAddress = InetAddress.getLocalHost().getHostAddress();
+//		log.info("###ZookeeperInitRunner，init. HostAddress={}, applicationName={}", hostAddress, applicationName);
+//		RegistryCenterFactory.startup(paascloudProperties, hostAddress, applicationName);
+//		log.info("###ZookeeperInitRunner，finish<<<<<<<<<<<<<");
 	}
 
 }
